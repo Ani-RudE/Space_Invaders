@@ -1,12 +1,96 @@
-body{
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+@font-face {
+	font-family: BadaBoom;
+	src: url("/Fonts/BadaboomBB_Reg.ttf");
 }
+
+@font-face {
+	font-family: SpaceInv;
+	src: url("/Fonts/space_invaders.ttf");
+}
+
+@font-face {
+	font-family: Arinoe;
+	src: url("/Fonts/Arinoe.ttf");
+}
+
+body{
+	font-family:Arinoe, BadaBoom, Geneva, Verdana, sans-serif;
+	background-image: url("/Images/website-bg.jpg");
+	z-index: -2;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	margin: 25px 0 25px 100px;
+}
+
+button{
+	margin: 25px 100px 0 50px;
+	padding-top: 10px;
+	height: 5rem;
+	width: 15rem;
+	background-color: lime;
+	border: solid 5px red;
+	border-radius: 20px;
+	font-size: 40px;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: yellow;
+	border: solid 5px red;
+	text-shadow: 3px 3px purple;
+}
+
+button a{
+	color: black;
+	text-decoration: none;
+	font-family: Arinoe, BadaBoom, Geneva, Verdana, sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 100%;
+	justify-items: center;
+}
+
+.text{
+	z-index: 1;
+	color: red;
+	margin-top: 20px;
+	text-align: center;
+	height: 200px;
+	width: 300px;
+	background-color: rgb(255, 221, 0);
+	border: solid 3px red;
+	text-shadow: 2.5px 2.5px black;
+	align-self: center;
+	margin-bottom: 100px;
+}
+
+h1,
+.results{
+	font-size: 50px;
+	font-weight: lighter;
+}
+
+/* -------------------------- */
 
 .grid {
 	width: 606px;
 	height: 606px;
 	border: solid red 3px;
-	margin: 0 auto 0 auto;
+	margin: 20px auto 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 	background-image: url("/Images/spaceBg2.png");

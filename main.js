@@ -112,13 +112,13 @@ function moveInvaders()
 
      if (aliensRemoved.length===alienInvaders.length)
      {
-          gameWinOverDisplay.innerHTML="You Win!"
+          gameWinOverDisplay.innerHTML="VICTORY!"
           clearInterval(invadersId)
      }
 }
 
 // Game speed
-invadersId = setInterval(moveInvaders, 500 );
+invadersId = setInterval(moveInvaders, 300);
 
 function shoot(e){
      let laserId
