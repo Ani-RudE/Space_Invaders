@@ -8,6 +8,7 @@ let invadersId
 let goingRight = true
 let aliensRemoved = []
 let results = 0
+let levelSpeed = 250
 
 for (let i = 0; i < 225; i++) {
      const square = document.createElement('div');
@@ -118,7 +119,7 @@ function moveInvaders()
 }
 
 // Game speed
-invadersId = setInterval(moveInvaders, 300);
+invadersId = setInterval(moveInvaders, levelSpeed);
 
 function shoot(e){
      let laserId

@@ -31,7 +31,7 @@ header{
 	margin: 25px 0 25px 100px;
 }
 
-button{
+.btn-res{
 	margin: 25px 100px 0 50px;
 	padding-top: 10px;
 	height: 5rem;
@@ -42,14 +42,14 @@ button{
 	font-size: 40px;
 }
 
-button:hover{
+.btn-res:hover{
 	cursor: pointer;
 	background-color: yellow;
 	border: solid 5px red;
 	text-shadow: 3px 3px purple;
 }
 
-button a{
+.btn-res a{
 	color: black;
 	text-decoration: none;
 	font-family: Arinoe, BadaBoom, Geneva, Verdana, sans-serif;
@@ -82,6 +82,35 @@ h1,
 .results{
 	font-size: 50px;
 	font-weight: lighter;
+}
+
+.levels{
+	margin-top: 20px;
+	height: 30vh;
+	width: 30%;
+	align-self: center;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.btn-lvl{
+	display: block;
+	padding-top: 7px;
+	background-color: yellow;
+	border: solid 5px red;
+	border-radius: 20px;
+	font-size: 40px;
+	text-align: center;
+	font-family: Arinoe, BadaBoom, Geneva, Verdana, sans-serif;
+}
+
+.btn-lvl:hover{
+	cursor: pointer;
+	background-color: lime;
+	border: solid 5px red;
+	text-shadow: 3px 3px blueviolet;
 }
 
 /* -------------------------- */
