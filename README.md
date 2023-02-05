@@ -18,6 +18,13 @@ The retro and classic game of "Space Invaders" made using JavaScript.
 
 
 
+
+
+
+
+
+
+
 ✅ - Required!
 
 🟨 - Recommended/Optional!
