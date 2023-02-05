@@ -102,7 +102,7 @@ function moveInvaders()
 
      for (let i=0; i<alienInvaders.length; i++)
      {
-          if (alienInvaders[i]>squares.length+width )
+          if (alienInvaders[i]>=210)
           {
                console.log("Game Over!")
                gameWinOverDisplay.innerHTML="Game Over!"
