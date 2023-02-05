@@ -1,5 +1,9 @@
-# Space_Invaders v2.0
+# Space_Invaders v3.0
+v3.0 - Added levels to the game.
+
 v2.0 - Improved GUI.
+
+v1.0 - Base game.
 #
 The retro and classic game of "Space Invaders" made using JavaScript.
 
@@ -9,7 +13,11 @@ The retro and classic game of "Space Invaders" made using JavaScript.
 
 ✅ main.js - Main JavaScript file.
 
-🟨 cssReset.css - CSS Reset file. Not necessary for running the main code.
+✅ indexEasy.html / indexHard.html - HTML files for game levels.
+
+✅ mainEasy.html / mainHard.html - JavaScript files for game levels.
+
+🟨 cssReset.css - CSS reset file. Not necessary for running the main code.
 
 ✅ Images - Folder containing Images used in the project.
 
