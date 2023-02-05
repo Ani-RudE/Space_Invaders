@@ -34,7 +34,7 @@ body{
 }
 
 .boom{
-	background-image: ;
+	background-image: url("/Images/explosion.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
