@@ -16,5 +16,8 @@ The retro and classic game of "Space Invaders" made using JavaScript.
 🟨 Fonts - Folder containing Fonts used in the project. Recommended for better experience.
 
 
+
+
 ✅ - Required!
+
 🟨 - Recommended/Optional!
