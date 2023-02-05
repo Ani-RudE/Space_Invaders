@@ -8,10 +8,10 @@ body{
 	border: solid red 3px;
 	display: flex;
 	flex-wrap: wrap;
-	/* background-image: url("/Images/spaceBg.png");
+	background-image: url("/Images/spaceBg2.png");
 	z-index: -1;
 	background-repeat: no-repeat;
-	background-size: cover; */
+	background-size: cover;
 }
 
 .grid div{
