@@ -1,4 +1,5 @@
 # Space_Invaders v2.0
+v2.0 with improved GUI!
 
 The retro and classic game of "Space Invaders" made using JavaScript.
 
