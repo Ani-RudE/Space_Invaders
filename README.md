@@ -1,4 +1,4 @@
-# Space_Invaders v1.1
+# Space_Invaders v1.2
 
 The retro and classic game of "Space Invaders" made using JavaScript.
 
