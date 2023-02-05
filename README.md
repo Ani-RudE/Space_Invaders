@@ -27,4 +27,8 @@ The retro and classic game of "Space Invaders" made using JavaScript.
 
 ✅ - Required!
 
+<<<<<<< HEAD
 🟨 - Recommended/Optional!
+=======
+🟨 - Recommended/Optional!
+>>>>>>> e083cb269e22c78d7710f32b90d2bcd65922e9c9
