@@ -103,6 +103,7 @@ h1,
 	border-radius: 20px;
 	font-size: 40px;
 	text-align: center;
+	text-decoration: none;
 	font-family: Arinoe, BadaBoom, Geneva, Verdana, sans-serif;
 }
 
@@ -111,6 +112,16 @@ h1,
 	background-color: lime;
 	border: solid 5px red;
 	text-shadow: 3px 3px blueviolet;
+}
+
+a:visited,
+a:active{
+	text-decoration: none;
+	color: black;	
+}
+
+a{
+	text-decoration: none;
 }
 
 /* -------------------------- */

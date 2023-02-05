@@ -8,29 +8,7 @@ let invadersId
 let goingRight = true
 let aliensRemoved = []
 let results = 0
-var levelSpeed = 250
-
-/* -------------------- */
-
-// var test;
-// function changeSpeed(){
-//      switch (document.getElementById("lvl").value){
-//           case "400":
-//                test=400;
-//                break;
-//           case "250":
-//                test=250;
-//                break;
-//           case "150":
-//                test=150;
-//                break;
-//      }
-// }
-
-// test=levelSpeed;
-// console.log(levelSpeed);
-
-/* -------------------- */
+var levelSpeed = 400
 
 for (let i = 0; i < 225; i++) {
      const square = document.createElement('div');
