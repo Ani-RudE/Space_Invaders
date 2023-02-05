@@ -18,12 +18,12 @@ The retro and classic game of "Space Invaders" made using JavaScript.
 
 ✅ mainEasy.html / mainHard.html - JavaScript files for game levels.
 
-🟨 cssReset.css - CSS reset file. Not necessary for running the main code.
+🟦 cssReset.css - CSS reset file. Not necessary for running the main code.
 
 ✅ Images - Folder containing Images used in the project.
 
-🟨 Fonts - Folder containing Fonts used in the project. Recommended for better experience.
+🟦 Fonts - Folder containing Fonts used in the project. Recommended for better experience.
 #
-✅ - Required!
+🟦 - Required!
 
 🟨 - Recommended/Optional!
