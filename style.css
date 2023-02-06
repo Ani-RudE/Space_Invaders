@@ -99,7 +99,7 @@ h1,
 .btn-lvl{
 	display: block;
 	padding-top: 7px;
-	background-color: yellow;
+	background-color: rgb(255, 255, 0);
 	border: solid 5px red;
 	border-radius: 20px;
 	font-size: 40px;
@@ -135,7 +135,7 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 	background-image: url("/Images/spaceBg2.png");
-	z-index: -1;
+	z-index: 0;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
