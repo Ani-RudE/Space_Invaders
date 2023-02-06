@@ -1,4 +1,6 @@
-# Space_Invaders v3.0
+# Space_Invaders v3.1
+v3.1 - Bug fixes.
+#
 v3.0 - Added levels to the game.
 
 v2.0 - Improved GUI.
