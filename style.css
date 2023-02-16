@@ -15,7 +15,7 @@
 
 body{
 	font-family:Arinoe, BadaBoom, Geneva, Verdana, sans-serif;
-	background-image: url("/Images/website-bg.jpg");
+	background-image: url("https://cdn.discordapp.com/attachments/1075621727004016721/1075621964045099029/website-bg.jpg");
 	z-index: -2;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -134,7 +134,7 @@ a{
 	margin: 20px auto 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	background-image: url("/Images/spaceBg2.png");
+	background-image: url("https://cdn.discordapp.com/attachments/1075621727004016721/1075621963487268915/spaceBg2.png");
 	z-index: 0;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -146,25 +146,25 @@ a{
 }
 
 .invader{
-     background-image: url("/Images/alienInvaders.png");
+     background-image: url("https://cdn.discordapp.com/attachments/1075621727004016721/1075621964330323998/alienInvaders.png");
      background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .shooter{
-	background-image: url("/Images/spaceship.png");
+	background-image: url("https://cdn.discordapp.com/attachments/1075621727004016721/1075621963789238312/spaceship.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .laser{
-	background-image: url("/Images/laser.png");
+	background-image: url("https://cdn.discordapp.com/attachments/1075621727004016721/1075621964896555098/laser.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .boom{
-	background-image: url("/Images/explosion.png");
+	background-image: url("https://cdn.discordapp.com/attachments/1075621727004016721/1075621964577767547/explosion.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
